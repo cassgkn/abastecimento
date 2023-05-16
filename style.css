@@ -1,0 +1,183 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 99.9vw;
+    height: 99.9vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 9%, #FFCC70 72%);
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.geral {
+    display: wrap;
+    width: 22rem;
+    height: 17rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    border: 1px solid #fff;
+    background-color: #a9a59d;
+    background-image: linear-gradient(243deg, #ededed 0%, #f5f9f9 100%);   
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 3) 0px 5px 15px;
+
+}
+
+.container  .titulo {
+    margin-top: 9rem;
+    font-size: 2rem;
+    color:#4158D0;
+    text-shadow: rgba(0.5, 0.5, 0.5, .45) 0px 5px 15px;
+}
+.container .etanol {
+    display: flex;
+    flex-direction: column;
+    color:#2a7007;
+    font-size: 1.5rem;
+    font: 900;
+    align-items: left;
+    justify-content: left;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.container .etanol input{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 19rem;
+    height: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin: .1rem;
+    padding: .3rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- elimina as setas de adicionamento numerico existente na lateral */
+}
+
+.container .gasolina {
+    display: flex;
+    flex-direction: column;
+    color:#2a7007;
+    font-size: 1.5rem;
+    font: 900;
+    align-items: left;
+    justify-content: left;
+    margin: 1rem;
+}
+
+.container .gasolina input {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 19rem;
+    height: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin: .1rem;
+    padding: .3rem;
+}
+
+.geral .botao {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+    width: 19.7vw;
+}
+
+.botao {
+    padding: .7rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #6c79db;
+    border-radius: 1rem;
+    border: 1px solid #f6ce08;
+    cursor: pointer;
+  
+        
+}
+
+button:hover {
+    background-color: #6c79db;
+    color:rgb(23, 178, 213);
+}
+
+.container .info {
+    margin-top: 3rem;
+    color: #efebea;
+}
+
+@media screen and (min-width: 380px) {
+    .container h1{
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.25rem;
+        padding: 0;  
+    }
+
+    .container .geral {
+        width: 21.5rem;
+    }
+
+    .geral .botao {
+        width: 18.5rem;
+    }
+
+    .container .info {
+        margin: 1.1rem;
+        color: #efebea;
+    }
+    button:hover {
+        background-color: #6c79db;
+        color:rgb(23, 178, 213);
+    }
+
+    .container .gasolina input {
+        width: 18.7rem;
+        height: 1.2rem;
+    }
+
+    .container .etanol input{
+        width: 18.7rem;
+        height: 1.2rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 576px) {
+    .container h1{
+        font-size: 2.5rem;  
+        margin: 1rem;   
+    }
+    .container .info {
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        color: #efebea;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container h1{
+        font-size: 2.7rem;  
+    }
+}
