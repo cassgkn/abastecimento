@@ -122,6 +122,10 @@ button:hover {
     color: #efebea;
 }
 
+.container .pe{
+    color: #d7cece;
+}
+
 @media screen and (min-width: 380px) {
     .container h1{
         display: flex;
@@ -159,6 +163,10 @@ button:hover {
         width: 18.7rem;
         height: 1.2rem;
     }
+
+    .container .pe{
+        color: #d7cece;
+    }
     
 }
 
@@ -175,10 +183,18 @@ button:hover {
         color: #efebea;
         font-size: 1.3rem;
     }
+
+    .container .pe{
+        color: #d7cece;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .container h1{
         font-size: 2.7rem;  
+    }
+
+    .container .pe{
+        color: #d7cece;
     }
 }
