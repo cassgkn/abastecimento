@@ -20,23 +20,26 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section class="container">
-        <h1 class="titulo">Viabilidade de Preço Combustível</h1>
-        <div class="geral">
-                <div class="etanol">
-                    <label for="valorEtanol">Valor do Etanol:</label>
-                    <input type="number" id="valorEtanol" step="0.01" placeholder="Digite valor do Etanol">
-                </div>
-                <div class="gasolina">
-                    <label for="valorGasolina">Valor da Gasolina:</label>
-                    <input type="number" id="valorGasolina" step="0.01" placeholder="Digite valor da Gasolina">
-                </div>
-                
-                <button class="botao" onclick="calcularCombustivel()">Calcular</button>
-        </div>
-                <div class="info" id="resultado"></div>
-        <footer class="pe">Desenvolvido por <span>Anderson Casimiro</span></footer>
-    </section>
+    <div>
+        <section class="container">
+            <h1 class="titulo">Viabilidade de Preço Combustível</h1>
+            <div class="geral">
+                    <div class="etanol">
+                        <label for="valorEtanol">Valor do Etanol:</label>
+                        <input type="number" id="valorEtanol" step="0.01" placeholder="Digite valor do Etanol">
+                    </div>
+                    <div class="gasolina">
+                        <label for="valorGasolina">Valor da Gasolina:</label>
+                        <input type="number" id="valorGasolina" step="0.01" placeholder="Digite valor da Gasolina">
+                    </div>
+                    
+                    <button class="botao" onclick="calcularCombustivel()">Calcular</button>
+            </div>
+                    <div class="info" id="resultado"></div>
+            <footer class="pe">Desenvolvido por <span>Anderson Casimiro</span></footer>
+        </section>
+    </div>
+
 
     <script src="./index.js"></script>
 </body>

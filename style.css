@@ -122,9 +122,14 @@ button:hover {
     color: #efebea;
 }
 
-.container .pe{
+footer {
+    display: flex;
     color: #d7cece;
 }
+
+.container .s{
+        font-weight:bold;
+    }
 
 @media screen and (min-width: 380px) {
     .container h1{
@@ -164,9 +169,14 @@ button:hover {
         height: 1.2rem;
     }
 
-    .container .pe{
+    footer {
+        display: flex;
         color: #d7cece;
     }
+    
+    .container .s{
+            font-weight:bold;
+        }
     
 }
 
@@ -184,9 +194,14 @@ button:hover {
         font-size: 1.3rem;
     }
 
-    .container .pe{
+    footer {
+        display: flex;
         color: #d7cece;
     }
+    
+    .container .s{
+            font-weight:bold;
+        }
 }
 
 @media screen and (min-width: 992px) {
@@ -194,7 +209,12 @@ button:hover {
         font-size: 2.7rem;  
     }
 
-    .container .pe{
+    footer {
+        display: flex;
         color: #d7cece;
     }
+    
+    .container .s{
+            font-weight:bold;
+        }
 }
