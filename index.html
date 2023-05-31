@@ -26,11 +26,11 @@
             <div class="geral">
                     <div class="etanol">
                         <label for="valorEtanol">Valor do Etanol:</label>
-                        <input type="number" pattern="[0-9]+([,\.][0-9]+)?" min="0" name="null" id="valorEtanol" step="any" placeholder="Digite valor do Etanol">
+                        <input type="text" inputmode="numeric" id="valorEtanol" step="any" placeholder="Digite valor do Etanol">
                     </div>
                     <div class="gasolina">
                         <label for="valorGasolina">Valor da Gasolina:</label>
-                        <input type="number" pattern="[0-9]+([,\.][0-9]+)?" min="0" name="null" id="valorGasolina" step="any" placeholder="Digite valor da Gasolina">
+                        <input type="text" inputmode="numeric" id="valorGasolina" step="any" placeholder="Digite valor da Gasolina">
                     </div>
                     
                     <button class="botao" onclick="calcularCombustivel()">Calcular</button>
